@@ -1,10 +1,23 @@
 import json
+import os
+
+import boto3
+from boto3.dynamodb.conditions import Key
 
 
 def lambda_handler(event, context):
-    order = {'id': 123, 'itemName': 'Mac Book Pro', 'Quantity': 100}
+    dynamodb = boto3.resource('dynamodb')
+    table_name = os.environ.get('ORDERS_TABLE')
+    table = dynamodb.Table(table_name)
+    order_id = int(event['pathParameters']['id'])
+    table.query(KeyConditionExpression=Key('id')).eq(order_id)
+
+    response = table.put_item(TableName=table_name, Item=order)
+    print('response->')
+    print(response)
+
     return {
         'statusCode': 201,
         'headers': {},
-        'body': json.dumps(order)
+        'body': json.dumps(response['items'])
     }
