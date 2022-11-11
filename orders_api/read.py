@@ -10,14 +10,13 @@ def lambda_handler(event, context):
     table_name = os.environ.get('ORDERS_TABLE')
     table = dynamodb.Table(table_name)
     order_id = int(event['pathParameters']['id'])
-    table.query(KeyConditionExpression=Key('id')).eq(order_id)
+    response = table.query(KeyConditionExpression=Key('id')).eq(order_id)
 
-    response = table.put_item(TableName=table_name, Item=order)
     print('response->')
     print(response)
 
     return {
         'statusCode': 201,
         'headers': {},
-        'body': json.dumps(response['items'])
+        'body': json.dumps(response['Items'])
     }
