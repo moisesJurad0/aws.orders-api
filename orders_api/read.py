@@ -1,4 +1,4 @@
-import json
+import json  # import simplejson as json
 import os
 
 import boto3
