@@ -60,6 +60,7 @@ Temporary Items
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
+.idea/**/workspace.xml
 
 # Gradle:
 .idea/**/gradle.xml
@@ -243,4 +244,3 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/osx,linux,python,windows,pycharm,visualstudiocode
 
-.idea/workspace.xml
