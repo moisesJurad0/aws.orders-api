@@ -1,7 +1,7 @@
-import json  # import simplejson as json
 import os
 
 import boto3
+import simplejson as json  # import json
 from boto3.dynamodb.conditions import Key
 
 
