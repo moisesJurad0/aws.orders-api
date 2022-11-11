@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="222feafb-cab5-41fa-9629-e579436b373b" name="Changes" comment="versionado de archivos de configuracion del ide pycharm y tb del buildeo del sam build">
-      <change afterPath="$PROJECT_DIR$/orders_api/read.py" afterDir="false" />
+    <list default="true" id="222feafb-cab5-41fa-9629-e579436b373b" name="Changes" comment="versionado de los archivos de pycharm a.k.a carpeta .idea">
+      <change beforePath="$PROJECT_DIR$/.aws-sam/build.toml" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/template.yaml" afterDir="false" />
     </list>
@@ -121,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668116585252</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="se añade la read_orders_api">
+      <created>1668119021340</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668119021340</updated>
+    </task>
+    <task id="LOCAL-00012" summary="versionado de los archivos de pycharm a.k.a carpeta .idea">
+      <created>1668119062842</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668119062842</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +160,8 @@
     <MESSAGE value="fix name of the orders" />
     <MESSAGE value="rename of orders-api folder to orders_api" />
     <MESSAGE value="versionado de archivos de configuracion del ide pycharm y tb del buildeo del sam build" />
-    <option name="LAST_COMMIT_MESSAGE" value="versionado de archivos de configuracion del ide pycharm y tb del buildeo del sam build" />
+    <MESSAGE value="se añade la read_orders_api" />
+    <MESSAGE value="versionado de los archivos de pycharm a.k.a carpeta .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="versionado de los archivos de pycharm a.k.a carpeta .idea" />
   </component>
 </project>
