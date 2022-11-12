@@ -5,6 +5,9 @@ import boto3
 
 
 def lambda_handler(event, context):
+    print('event->')
+    print(event)
+
     order = json.loads(event['body'])
     dynamodb = boto3.resource('dynamodb')
     table_name = os.environ.get('ORDERS_TABLE')
