@@ -1,0 +1,121 @@
+{
+  "resource": "/orders",
+  "path": "/orders",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate, br",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-ASN": "6147",
+    "CloudFront-Viewer-Country": "PE",
+    "Content-Type": "application/json",
+    "Host": "vfndk0y3n1.execute-api.us-east-1.amazonaws.com",
+    "Postman-Token": "ce25e182-edd9-4ff2-a82b-bc02d4849324",
+    "User-Agent": "PostmanRuntime/7.29.2",
+    "Via": "1.1 3abf9e228643312ffef5c3fbe5348f58.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "lAdABFRL7XHUfHuLUiyyt8Pl5IgjQ0TY951kJVaRy5E1zcPy48MO5Q==",
+    "X-Amzn-Trace-Id": "Root=1-636ec8c2-33d5ce391f72fa54369b6388",
+    "X-Forwarded-For": "181.65.35.85, 130.176.214.207",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "Accept": [
+      "*/*"
+    ],
+    "Accept-Encoding": [
+      "gzip, deflate, br"
+    ],
+    "CloudFront-Forwarded-Proto": [
+      "https"
+    ],
+    "CloudFront-Is-Desktop-Viewer": [
+      "true"
+    ],
+    "CloudFront-Is-Mobile-Viewer": [
+      "false"
+    ],
+    "CloudFront-Is-SmartTV-Viewer": [
+      "false"
+    ],
+    "CloudFront-Is-Tablet-Viewer": [
+      "false"
+    ],
+    "CloudFront-Viewer-ASN": [
+      "6147"
+    ],
+    "CloudFront-Viewer-Country": [
+      "PE"
+    ],
+    "Content-Type": [
+      "application/json"
+    ],
+    "Host": [
+      "vfndk0y3n1.execute-api.us-east-1.amazonaws.com"
+    ],
+    "Postman-Token": [
+      "ce25e182-edd9-4ff2-a82b-bc02d4849324"
+    ],
+    "User-Agent": [
+      "PostmanRuntime/7.29.2"
+    ],
+    "Via": [
+      "1.1 3abf9e228643312ffef5c3fbe5348f58.cloudfront.net (CloudFront)"
+    ],
+    "X-Amz-Cf-Id": [
+      "lAdABFRL7XHUfHuLUiyyt8Pl5IgjQ0TY951kJVaRy5E1zcPy48MO5Q=="
+    ],
+    "X-Amzn-Trace-Id": [
+      "Root=1-636ec8c2-33d5ce391f72fa54369b6388"
+    ],
+    "X-Forwarded-For": [
+      "181.65.35.85, 130.176.214.207"
+    ],
+    "X-Forwarded-Port": [
+      "443"
+    ],
+    "X-Forwarded-Proto": [
+      "https"
+    ]
+  },
+  "queryStringParameters": "None",
+  "multiValueQueryStringParameters": "None",
+  "pathParameters": "None",
+  "stageVariables": "None",
+  "requestContext": {
+    "resourceId": "8pfuhr",
+    "resourcePath": "/orders",
+    "httpMethod": "POST",
+    "extendedRequestId": "bdROfENIIAMFQDg=",
+    "requestTime": "11/Nov/2022:22:12:18 +0000",
+    "path": "/Prod/orders",
+    "accountId": "572867055940",
+    "protocol": "HTTP/1.1",
+    "stage": "Prod",
+    "domainPrefix": "vfndk0y3n1",
+    "requestTimeEpoch": 1668204738961,
+    "requestId": "1c6d1266-01ff-471e-9953-f09baf6da507",
+    "identity": {
+      "cognitoIdentityPoolId": "None",
+      "accountId": "None",
+      "cognitoIdentityId": "None",
+      "caller": "None",
+      "sourceIp": "181.65.35.85",
+      "principalOrgId": "None",
+      "accessKey": "None",
+      "cognitoAuthenticationType": "None",
+      "cognitoAuthenticationProvider": "None",
+      "userArn": "None",
+      "userAgent": "PostmanRuntime/7.29.2",
+      "user": "None"
+    },
+    "domainName": "vfndk0y3n1.execute-api.us-east-1.amazonaws.com",
+    "apiId": "vfndk0y3n1"
+  },
+  "body": "{\r\n    \"id\": 7,\r\n    \"itemName\": \"otro producto 1 asdkljhnd 8\",\r\n    \"quantity\": 9\r\n}",
+  "isBase64Encoded": "False"
+}
