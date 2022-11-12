@@ -1,6 +1,12 @@
 import json
+import os
+
+import boto3
 
 # import requests
+
+dynamodb = boto3.resource('dynamodb')
+table_name = os.environ.get('ORDERS_TABLE')
 
 
 def lambda_handler(event, context):

@@ -1,16 +1,16 @@
-import os
-
-import boto3
 import simplejson as json  # import json
 from boto3.dynamodb.conditions import Key
+
+import app
 
 
 def lambda_handler(event, context):
     print('event->')
     print(event)
 
-    dynamodb = boto3.resource('dynamodb')
-    table_name = os.environ.get('ORDERS_TABLE')
+    dynamodb = app.dynamodb
+    table_name = app.table_name
+
     table = dynamodb.Table(table_name)
     order_id = int(event['pathParameters']['id'])
     response = table.query(
